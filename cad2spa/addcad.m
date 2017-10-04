@@ -1,9 +1,15 @@
 function [ handles ] = addcad(axis,handles )
+% Mark Naves
+% 4-10-2017
 %Just an example how to add cad data to spavisual
-%in visualization part of dat-file: USERPLOT addcad
-%check correct stl settings before saving. in save as => select .stl =>
+%
+%In visualization part of dat-file: USERPLOT addcad
+%Function requires stl2fv.m
+%
+%Check correct stl settings before saving. in save as => select .stl =>
 %options => output as ASCII, unit as meters
 
+%%
 %remember cad data to improve speed
 persistent F V
 
