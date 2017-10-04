@@ -37,7 +37,7 @@ for i=1:7
   end;
   if locv(i) <= nxp(1) || ...
      (locv(i)>(nxp(1)+nxp(2)) && locv(i) <= (nxp(1)+nxp(2)+nxp(3))) 
-    disp('WARNING: constrained node');
+    %disp('WARNING: constrained node');
   end;
 end;
 % search for the right degrees of freedom
